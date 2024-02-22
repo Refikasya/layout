@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(8, 8, 8);
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0px;
+
+  font-size: 20px;
+  background-color: rgb(8, 8, 8);
+  position: fixed;
+  width: 100%;
+  color: white;
+  /* margin-top: auto; */
+}
+
+ul {
+  display: flex;
+  color: white;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul :hover {
+  color: gold;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  color: gold;
+}
+
+table {
+  border: white solid 1px;
+
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+  border-radius: 25px;
+}
+
+.adidas {
+  color: gold;
+  font-size: larger;
+  padding-bottom: 1px;
+}
+
+.Comment {
+  font-weight: 500;
+  font-size: small;
+}
+
+.Brand {
+  font-size: smaller;
+  font-weight: 300;
+  padding-top: 55px;
+}
+
+.harga {
+  padding-left: 720px;
+  font-size: small;
+  margin-right: 20px;
+}
+
+.stok {
+  padding-left: 720px;
+  font-weight: 200;
+  font-size: 7px;
+}
+
+.BUY {
+  padding-left: 720px;
+  border-radius: 25px;
+  color: gold;
+  cursor: pointer;
+}
+.card {
+  padding-top: 90px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+/* bintang rating */
+.checked {
+  color: orange;
+}
+
+footer p {
+  color: white;
+}
+
+footer {
+  background-color: rgb(8, 8, 8);
+  color: #0e0d0d;
+  padding: 19px 0 0 0;
+  text-align: center;
+  padding-bottom: 75px;
+  padding-top: 100px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #007bff;
+}
